@@ -1,2 +1,2 @@
 # slf4sql
-This is for library for logging SQL on Oracle.
+This is for library for SQL logging using slf4j.
