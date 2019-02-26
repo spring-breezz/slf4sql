@@ -54,10 +54,16 @@ spring.datasource.password=PASSWORD
 <property name="password" value="PASSWORD" />
 ```
           
+### Stand-Alone Code in Java
+```java
+String dbDriver = "sb.slf4sql.ProxyDriver";
+String dbUrl = "jdbc:slf4sql:oracle:thin:@HOST_IP:HOST_PORT:DATABASE";
+String dbUser = "USERNAME";
+String dbPassword = "PASSWORD";
 
-### Java
-```
-Example
+Class<?> clazz = Class.forName(dbDriver);
+DriverManager.registerDriver((Driver) clazz.newInstance());
+Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
 ```
 
 ```html
