@@ -17,8 +17,8 @@ This is how it works:
 ```
 
 ## Prerequisites
-* JDK 8
-* [SLF4J](https://www.slf4j.org/)
+* JDK 8 or later
+* [SLF4J](https://www.slf4j.org/) - Simple Logging Facade for Java
 
 - 
 - 
