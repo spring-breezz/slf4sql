@@ -12,6 +12,21 @@ This is how it works:
 - Change driver class name to `sb.slf4sql.ProxyDrive`.
 - Change driver url to `sb.slf4sql.ProxyDrive`.
 
+### Spring Boot
+```
+Example
+```
+
+### MyBatis
+```
+Example
+```
+
+### Java
+```
+Example
+```
+
 ```html
 <logger name="org.hibernate.SQL" level="debug"/>
 ```
@@ -20,8 +35,6 @@ This is how it works:
 * JDK 8 or later
 * [SLF4J](https://www.slf4j.org/) - Simple Logging Facade for Java
 
-- 
-- 
 
 ```
 Give examples
