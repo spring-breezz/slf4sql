@@ -1,9 +1,11 @@
 # slf4sql
 slf4sql is a library for SQL logging using slf4j.
 
+
 ## slf4sql in brief
 
 This is how it works:
+
 
 ## Usage
 
@@ -12,7 +14,7 @@ This is how it works:
 - Change driver url to `sb.slf4sql.ProxyDrive`.
 
 
-### Prerequisites
+## Prerequisites
 
 - JDK 8
 - slf4j
