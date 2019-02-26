@@ -5,7 +5,9 @@ slf4sql is a library for SQL logging using slf4j.
 
 This is how it works:
 - slf4sql provides the statement interceptor at the `Driver` level, which is much more convenient for Java applications because the `DataSource` is provided by the application server.
+
 ![slf4sql Diagram](slf4sql-diagram.png)
+
 ## Usage
 
 - Add slf4sql-x.x.x.jar into your project.
