@@ -19,9 +19,12 @@ This is how it works:
 Example
 ```
 
-### MyBatis
+### MyBatis 2.0
 ```
-Example
+<property name="JDBC.Driver" value="sb.slf4sql.ProxyDriver" />
+<property name="JDBC.ConnectionURL" value="jdbc:slf4sql:oracle:thin:@HOST_IP:HOST_PORT:DATABASE" />
+<property name="JDBC.Username" value="USERNAME" />
+<property name="JDBC.Password" value="PASSWORD" />
 ```
 
 ### Java
