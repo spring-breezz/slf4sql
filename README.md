@@ -12,6 +12,10 @@ This is how it works:
 - Change driver class name to `sb.slf4sql.ProxyDrive`.
 - Change driver url to `sb.slf4sql.ProxyDrive`.
 
+```html
+<logger name="org.hibernate.SQL" level="debug"/>
+```
+
 ## Prerequisites
 
 - JDK 8
