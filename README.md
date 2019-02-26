@@ -71,6 +71,3 @@ DriverManager.registerDriver((Driver) clazz.newInstance());
 Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
 ```
 
-```html
-<logger name="org.hibernate.SQL" level="debug"/>
-```
