@@ -8,6 +8,11 @@ This is how it works:
 
 ![slf4sql Diagram](slf4sql-diagram.png)
 
+## Prerequisites
+* JDK 8 or later
+* [SLF4J](https://www.slf4j.org/) - Simple Logging Facade for Java
+
+
 ## Usage
 
 - Add slf4sql-x.x.x.jar into your project.
@@ -68,13 +73,4 @@ Connection connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
 
 ```html
 <logger name="org.hibernate.SQL" level="debug"/>
-```
-
-## Prerequisites
-* JDK 8 or later
-* [SLF4J](https://www.slf4j.org/) - Simple Logging Facade for Java
-
-
-```
-Give examples
 ```
