@@ -11,10 +11,9 @@ This is how it works:
 ## Usage
 
 - Add slf4sql-x.x.x.jar into your project.
-- Change driver class name to `sb.slf4sql.ProxyDrive`.
-- Change driver url to `sb.slf4sql.ProxyDrive`.
+- Replace driver class name with `sb.slf4sql.ProxyDrive`.
+- Change url to jdbc:`slf4sql:`oracle:thin:@HOST_IP:HOST_PORT:DATABASE.
 
-### Spring Boot
 ```diff
 + sb.slf4sql.ProxyDriver
 - oracle.jdbc.OracleDriver
@@ -22,6 +21,16 @@ This is how it works:
 - jdbc:oracle:thin:@HOST_IP:HOST_PORT:DATABASE
 ```
 
+- Add SQLLogger with debug level
+
+```xml
+<!-- SQL Logger -->
+<logger name="sb.slf4sql.SQLLogger" level="debug" additivity="false">
+          <appender-ref ref="CONSOLE"/>
+</logger>
+```
+
+### Spring Boot
 ```
 spring.datasource.driver-class-name=sb.slf4sql.ProxyDriver
 spring.datasource.url=jdbc:slf4sql:oracle:thin:@HOST_IP:HOST_PORT:DATABASE
