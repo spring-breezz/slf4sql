@@ -8,9 +8,8 @@ This is how it works:
 ## Usage
 
 - Add slf4sql-x.x.x.jar into your project.
-- Configure belows
--- driver class name: sb.slf4sql.ProxyDrive
--- url: 
+- Change driver class name to `sb.slf4sql.ProxyDrive`.
+- Change driver url to `sb.slf4sql.ProxyDrive`.
 
 
 ### Prerequisites
