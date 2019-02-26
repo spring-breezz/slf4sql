@@ -1,10 +1,10 @@
-# SLF4SQL
-SLF4SQL is a library for SQL logging using slf4j.
+# slf4sql
+slf4sql is a library for SQL logging using slf4j.
 
-## SLF4SQL in brief
+## slf4sql in brief
 
 This is how it works:
-- SLF4SQL provides the statement interceptor at the `Driver` level, which is much more convenient for Java applications because the `DataSource` is provided by the application server.
+- slf4sql provides the statement interceptor at the `Driver` level, which is much more convenient for Java applications because the `DataSource` is provided by the application server.
 
 ## Usage
 
@@ -17,9 +17,11 @@ This is how it works:
 ```
 
 ## Prerequisites
+* JDK 8
+* [SLF4J](https://www.slf4j.org/)
 
-- JDK 8
-- SLF4J
+- 
+- 
 
 ```
 Give examples
