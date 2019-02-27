@@ -1,5 +1,5 @@
 # slf4sql
-slf4sql is a library for SQL logging using slf4j.
+slf4sql is a library for SQL logging with slf4j.
 
 ## slf4sql in brief
 
